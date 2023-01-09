@@ -1,0 +1,10 @@
+better-theme-switcher (v1.0.0) - an extended re-implementation of gnome's dark theme switcher
+
+Command:
+        better-theme-switcher <arguments>
+
+Usage:
+        -L, --setup-light       Sets up the light theme based on your current settings
+        -D, --setup-dark        Sets up the dark theme based on your current settings
+        --reset-targets         Resets the targets file
+        -h, --help              Displays this message

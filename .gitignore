@@ -1,0 +1,4 @@
+Builds/
+node_modules/
+*.js
+main.ts.bac
