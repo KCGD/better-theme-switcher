@@ -6,12 +6,13 @@ An extended re-implementation of GNOME's dark theme switcher
 This is my own re-implementation of GNOME's dark theme switcher. It operates similarly to theme
 default theme switcher, but with added support for:
 
-* Wallpaper switching
+* Wallpaper switching (custom wallpapers)
 * Custom cursors
 * Custom themes (gradience and legacy gtk-3 themes)
 * Shell theme switching
+* Terminal profile switching
 
-These features can be easily extended without changing the program's code.
+These features are enabled by default, but can be easily extended to essentially any setting on the system.
 
 ## How does it work?
 This program uses a sort of "snapshot" system that runs ontop of gsettings.

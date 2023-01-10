@@ -8,3 +8,6 @@ org.gnome.desktop.background picture-uri-dark
 
 # cursor
 org.gnome.desktop.interface cursor-theme
+
+#terminal profiles
+org.gnome.Terminal.ProfilesList default
