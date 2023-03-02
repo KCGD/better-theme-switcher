@@ -53,8 +53,8 @@ the AUR soon!
 ### Getting the code
 Download the code using git 
 ```bash
-git clone whatever.git
-cd whatever
+git clone https://github.com/KCGD/better-theme-switcher.git
+cd better-theme-switcher
 ```
 
 ### Dependencies
