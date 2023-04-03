@@ -1,0 +1,6 @@
+add "triggers" file, which adds gsettings properties to monitor and a preset to apply when it reaches a spesific value
+
+like for dark/light theme, do:
+    org.gnome.desktop.interface color-scheme 'prefer-dark' dark[.gset]  //sets dark theme
+    org.gnome.desktop.interface color-scheme 'default' light      //sets light theme
+    //might need to set special rule for color scheme application and saving due to css
