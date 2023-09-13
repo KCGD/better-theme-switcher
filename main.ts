@@ -185,9 +185,9 @@ function Main(): void {
 //apply theme
 function applyTheme (targetTheme: "light" | "dark"): void {
      //write css files (gtk4)
-     fs.writeFileSync(gtk4TargetFile, fs.readFileSync(path.join(configPath, `css/${targetTheme}.gtk4.css`)));
+     //fs.writeFileSync(gtk4TargetFile, fs.readFileSync(path.join(configPath, `css/${targetTheme}.gtk4.css`)));
      //write css files (gtk3)
-     fs.writeFileSync(gtk3TargetFile, fs.readFileSync(path.join(configPath, `css/${targetTheme}.gtk3.css`)));
+     //fs.writeFileSync(gtk3TargetFile, fs.readFileSync(path.join(configPath, `css/${targetTheme}.gtk3.css`)));
 
     //read gset file
     let targetSettings:gsetting[] = JSON.parse(fs.readFileSync(path.join(configPath, `${targetTheme}.gset.json`)).toString());
